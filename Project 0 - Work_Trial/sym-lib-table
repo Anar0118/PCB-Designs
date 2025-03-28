@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Work_CPTCircle_Symbol")(type "Altium")(uri "D:/PCB Design/CPTCircle/CPTCircle_1.SCHLIB")(options "")(descr ""))
+  (lib (name "Work_Fotocell_Symbol")(type "Altium")(uri "D:/PCB Design/CPTCircle/FotocellShematiclib.SCHLIB")(options "")(descr ""))
+  (lib (name "Project 0 - Work_Trial-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Project 0 - Work_Trial-altium-import.kicad_sym")(options "")(descr ""))
+)

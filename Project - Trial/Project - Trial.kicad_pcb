@@ -1,0 +1,1973 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "/net_1")
+	(net 2 "/net_2")
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "01ff35ac-fa03-47f1-9d28-becce3c5a62e")
+		(at 149 110.5)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J4"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "dfc31acd-b1af-46c4-b88c-90409b647dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "665f63e4-8e23-43c2-9dfd-a40e377d9352")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1ae6d86-2346-490b-a1b1-42f3b8d4fc00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac0deacd-7ccd-472f-9647-2bb0973337e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1ce9a69-aa4c-4360-917e-8be8092f491f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/9451a89f-db9c-437a-bbeb-13b5039a2638")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d8c1633-97f4-44e6-a8ee-772fb3636d52")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c5eaa12-8494-47dc-98f6-0cc92e3cadd0")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91c6b877-d99f-4366-a0f2-aeb7e3f64639")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76eca783-20b6-4a92-867a-fcac00741b27")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88549ca1-2e92-405a-8059-5c7d81ab50f2")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ee67c36-ff02-48a2-bea6-64eda306d83d")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff99d168-8e61-4a49-a514-27ba8d8869c3")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "39dd2ae2-1ff3-4455-ac38-eca05af6a607")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e63ac53-b983-4f34-999b-bc69e4145833")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4c935e0-fd32-4590-ae93-208ddd2d20f6")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f76e5b4-347f-44fb-bd90-8e1938f3b9e3")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd2560df-3fd0-497f-aaac-583e38c13ed0")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e865c540-3489-4af7-aa0f-31282538b691")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "817c09fd-9352-4f99-aa72-a18a66cdc71e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/net_1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "0c9fb6fc-bf3b-48d8-a9db-50e06ecdd48f")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "3ec0b2e9-be60-4831-b3d4-9c7bab7c17a0")
+		(at 138 111.5)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J2"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "42a22524-1c69-46cc-80fa-c6a5326674af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "e0f496e1-3bc6-4eae-8ca5-61c83fc1a511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e53ab5c3-43f2-4f02-aca5-2e90a0ed2469")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59800428-a965-48bb-8f7d-21d34ca88ada")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a69e9e4-9605-48c1-ab1d-bab3e9cc9629")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/057c21df-4993-4f28-b230-2cc2c2ea0de6")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "991736be-bb12-4e33-873a-e55aae68ce9c")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fafd0934-3901-45de-9c55-474124f26514")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99eeba67-9a1b-4bb0-937c-4b4ff3f53415")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "32242ee8-5e68-4e26-a698-576427c5162c")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "366a49b5-1b1c-4b50-847b-e29b8303b0e3")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "171c1830-a07a-4000-9f2e-6a00dfb1d84d")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6895ad5c-4d37-45f2-9521-158cc70df33e")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e8f2ba0-53e3-4535-a623-0dfe387532c8")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be7fe247-bfa6-4f18-99c5-3dffdd42eed6")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0490847f-58da-4932-a60d-746b1c04adfb")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "007ecf00-2681-4108-bdf3-3bf0af0e53af")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2698685c-d4ef-4eaa-a30f-cd13f99937af")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "00b70708-5934-405d-abd0-324851da47d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "a4200d9c-1268-4675-a164-97b93682d85d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/net_1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "0801e586-70cf-4192-8052-00b9c883d8b6")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "71cef053-ff26-4510-a9dd-0986fbac6156")
+		(at 172.5 97)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J5"
+			(at 0 2 0)
+			(layer "F.SilkS")
+			(uuid "d06e0be6-70d2-4b25-8972-18cbf7b34c5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "55fa0a07-dece-461f-aaf7-563df3e8187d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5609c90-b121-4c9c-b21e-f53ef50023f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf2b5cc4-8923-4827-82bf-8887cdc3af64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e52ee0e-9d60-4ec0-97d9-9b26fdb181e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/d89cbfa4-378a-41a5-836a-181a0115655e")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fac0ff23-60bf-4397-b1aa-ee130a6c18d1")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4888da41-a6f7-424c-959b-14f349db6c37")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9da45a4c-aed1-4aef-8a2d-98549092c502")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0d4d037-c494-43ff-964b-da173a72d410")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8aa419e3-df00-4d73-afee-077dc2e24b92")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "448c8d3d-6cd5-4fe0-b196-18699f646f52")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b318b5d3-1d88-4cb9-ac86-91e2efcd0977")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5909148b-0605-4380-b949-cbc16d0bcb8e")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01180783-e7e2-42f6-9493-facd1b21fdd5")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6705f2ac-92e0-4628-96f6-cf60227c33fe")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b24d557e-4217-4293-99f5-d1b292ab8604")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4749937-05bc-409a-98da-eee4800272a5")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "565a82a9-4df2-44f1-b896-d6c823c62e8a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "80b9ed80-8be6-4c05-9b33-bb5290664b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "/net_2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "b135f4ad-ac69-4efe-b63f-38b449eb653a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "72a62fdf-e661-4dc4-aaee-124712b49136")
+		(at 173.5 117.5)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J6"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "10312a1f-269c-4a2d-bc03-699e8146de0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "5e3fd095-96cc-490d-b162-9fab12468b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ba203ed-39d2-4232-9195-06d775037bc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11d33ff-368c-410e-a84d-2b3e9d131ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6376b7be-0113-4d79-986b-1ddbf8f1dee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/c982747a-d501-495d-8baf-65a9f365a51a")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "257b73d8-5413-45da-b35c-e8f5e61dc436")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c9fc13d-7c9a-43da-b5ce-e1dad02eb6a0")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "195dbdfb-76f2-42bc-81e2-49f29d3a76b2")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc293744-b1d5-4392-81a1-9879c212f130")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9bfd3058-8427-4e1d-b694-7fc24c752111")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b72b5920-6b14-4f96-8c88-c3e47d2eab99")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "395ea3ea-b677-4ef5-9a5c-dbcc2e59d084")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "82d1bfae-9d1e-45ae-bf1c-b009ad13107d")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8339c083-7afd-4724-937d-9e2616b8e4fe")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee46ef29-f0e0-4c1e-a279-bdfe1fa760ea")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a6e19ab-e01e-44bf-879f-5c912fd809fa")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da68c585-841d-46b3-96eb-b719e3f9158b")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0a741e61-505d-4ae0-93ad-1e1153860bd0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "232def0f-0b55-4be4-a8ad-045abbb0a7e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "/net_2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "cf95259c-4661-4109-ba55-323c7ee31d11")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "a09f0337-0642-475f-8939-4ad56a2f1471")
+		(at 144 104)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J3"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "dd2b75a6-0044-4910-aac9-1aaf228fb03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "a993c976-f228-4029-ab75-35c3cd50f02e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d5b02d6-1c17-435f-b07a-9919a15ec401")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5144413-185c-422d-ab9c-5ba65dde0f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44804345-10a6-40f2-ba0e-8025ee9ce6ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/db81538e-6878-4f63-8586-dfae9dcf8880")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9de105f-26a8-46fe-9a7f-7626fa586164")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff700981-b1e5-4798-983a-21b9a05ecf3a")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc136868-19c0-46cb-a68c-801847aecdc3")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "79b5d32e-7dc7-4793-a0a0-ae3106786fd3")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "30721a97-aae7-445b-a073-a147a0c36a80")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5776bc91-8c4d-42cd-a76f-d0975e5528f2")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a63eb20-6e53-45db-b486-491572b50bb9")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7cae7d60-bf01-4fca-966e-9fb21c52f081")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50e9cf9e-1169-4359-88c2-46367b90ddef")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bfc14520-f629-44e5-b44e-57cb762ec6a5")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7e17d78-84f9-4613-875b-8f92aedd12b6")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62cada5f-94a1-4668-baf3-63448a8ef8eb")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e48c2a96-ed6b-4a0c-9b02-4bf331bfc9fc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "4b831bb9-ec32-4e84-9f01-74b2b913c96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/net_1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "356ee2e3-2605-4314-9906-a433230ba3a7")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "b220b695-4ffb-47b5-b695-76100718398f")
+		(at 184.5 96.5)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J7"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "a30f9fbe-16e0-4049-8ee0-99af91999543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "3e835469-57ff-49f8-9a90-0e256e59ee7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c70f18b0-09b6-48f2-abdf-9ab942158c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f4b988-a6e2-4981-9a44-b3cec9fe5b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9427d4ef-7276-4b1a-9fb1-6475b01465c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/07329928-4b03-4289-b172-e98197093d21")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3f5dd84-3acf-48e6-a0a8-6f158ad5e722")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9fabf992-9b2e-4421-9610-312ebea5fe17")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7937659-c387-40a5-8399-2f643f34c0df")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b34a970-040c-4d0d-b17a-f9af8e5dbfc9")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bb5f2b3-d4d8-4d65-be6d-95d99a21380e")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9067dc4-e4c7-401a-a4c3-65dcf6b6a769")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f47b17fa-4412-429d-aa76-11ccc6a631e7")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "677b7a49-ff21-47b0-b870-ca00efabf150")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fcf139d0-cabb-4bba-89f9-494e68094716")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "197cddb2-69bf-4b38-8332-742973998e1b")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74617524-a224-479b-b1d4-866818fbcee0")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce6121b7-ed8c-4267-8c2d-76f29e2eda45")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28e8798d-5637-4dfa-bca2-638d58526482")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "fae4576b-87e6-4e2f-99ce-e030c92df14b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "/net_2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "148c214a-b373-4091-9371-f5f0e1bc4a80")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "c8b703db-6821-4299-ba89-040f6a8524c0")
+		(at 186 110)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J8"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "7b520376-9634-42cf-9dc0-62ac1f92ccfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "854e9dde-8adb-4975-a239-6638bd9a271a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d0e388-7c26-4f75-bc47-0543f4987303")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08700df5-f08c-418a-bb9e-0bbf9d9c2ee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbdc2c33-ffaa-4025-af1e-35be913c1104")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/93f33f0c-4989-4533-a6d6-b9d6ece3d929")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf5e4cf6-6583-48de-b2f3-08d13202c6fd")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0305870-dc38-4ad4-94d9-b3accc669076")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "840c3281-e9af-4daf-8e2e-f624975e146f")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45b33aad-c0a7-48f7-8b9a-638900a32c24")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3441c9d9-3c37-4ff0-8bdf-c8021c14a6da")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f57298a-8e30-4094-8f29-1bbaf19184ff")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "382bc27c-16be-4adb-b70b-d053a123fa5d")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "42cb7f0d-33db-4a6d-bbb5-69a56fdc07e5")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "951f4666-2225-4ce2-bbbc-ab8f702c4def")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb4414ba-11a2-4a23-b9b7-dcbddfcbb4d2")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45e43e0c-b22e-4213-a6b7-6b41b0d98667")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc42408d-1304-4041-8438-347412e0061e")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d542633-f6ed-4d4c-8f40-e081397ec4ce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "597564ff-1ed0-4cd8-ba9f-2c5af8b8f968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "/net_2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "ee371ada-c1ce-4568-90a1-7c9023c2af99")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(layer "F.Cu")
+		(uuid "eaa9191c-875f-4b17-8b75-04fa9fb30558")
+		(at 135 100)
+		(descr "solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm")
+		(tags "solder Pin_ with flat fork")
+		(property "Reference" "J1"
+			(at 0 1.8 0)
+			(layer "F.SilkS")
+			(uuid "c79cb626-9818-4e30-80fb-595ba86e9ef2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 -1.8 0)
+			(layer "F.Fab")
+			(uuid "cce7d1e9-2ef1-4a59-9bcc-67d4caf5828d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0401b898-3786-4090-8dc0-9cd56f75a3e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d87645c-bb28-43ef-960a-96c1d64f3b29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1914c9c9-a34f-4956-acea-d517a316b4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/7a10ad16-41d1-4191-aa4a-342baf15578a")
+		(sheetname "Root")
+		(sheetfile "Project - Trial.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13142b51-ea03-437a-9507-06268610b1d1")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.9 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "408bb546-9ef0-4385-962b-30e063ec16cb")
+		)
+		(fp_line
+			(start 0.9 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff33cd55-6804-4c14-9bd7-742566f6bf4e")
+		)
+		(fp_line
+			(start 0.9 -0.9)
+			(end 0.9 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8537622-6fa7-4f79-9f57-998774e6dbe0")
+		)
+		(fp_line
+			(start 0.9 0.95)
+			(end 0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa3f58a3-f16a-407e-ad63-17a1c626f9f1")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa04732f-6f15-4876-804f-d34047256d53")
+		)
+		(fp_line
+			(start -1.4 -1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91b95c48-b51e-4a00-9ba6-1ff6aca6d441")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d73fa65-fb38-4831-a0d1-7dbd8ede6dfa")
+		)
+		(fp_line
+			(start 1.35 1.2)
+			(end 1.35 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79639306-d779-49d1-a254-6a83ff85932f")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f979708b-ff32-4a2b-8ab3-d7978d94e676")
+		)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67d8c579-5de4-4133-ab9c-833288112012")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39e28a1e-4f8e-44c7-adb1-df0b2d97f15c")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3b55a50-691e-4abb-a79b-f74a13c66497")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "015989c4-959b-4ec8-8312-ef7f5d7c4487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/net_1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "38b92d19-c36e-40c2-a9f4-e667f7bbe1a4")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+)
